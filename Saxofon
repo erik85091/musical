@@ -1,0 +1,18 @@
+# musical
+
+public class Saxofon  implements Viento {
+    public Saxofon() {
+    }
+
+    @Override
+    public void notas() {
+        System.out.println("Saxofon, Notas que producen musica muy fina");
+
+    }
+
+    @Override
+    public void botones() {
+        System.out.println("Saxofon, Botones que producen musica no muy fina");
+
+    }
+}
