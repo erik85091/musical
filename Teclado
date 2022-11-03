@@ -1,0 +1,6 @@
+# musical
+public interface Teclado {
+    public void notas();
+    public void teclas();
+
+}
