@@ -1,0 +1,16 @@
+public class Main {
+
+    public static void main(String[] args) {
+        Guitarra guitarra= new Guitarra();
+        Saxofon saxofon=new Saxofon();
+        Piano piano=new Piano();
+
+        guitarra.notas();
+        guitarra.punteadas();
+        saxofon.notas();
+        saxofon.botones();
+        piano.notas();
+        piano.teclas();
+
+    }
+}
