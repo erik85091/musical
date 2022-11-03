@@ -1,0 +1,18 @@
+# musical
+
+public class Guitarra implements Cuerda {
+    public Guitarra() {
+    }
+
+    @Override
+    public void notas() {
+        System.out.println("Guitarra, Notas que producen musica muy fina");
+
+    }
+
+    @Override
+    public void punteadas() {
+        System.out.println("Guitarra, Punteadas que producen musica no muy fina");
+
+    }
+}
