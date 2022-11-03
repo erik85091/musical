@@ -1,0 +1,6 @@
+# musical
+public interface Cuerda {
+    public void notas();
+    public void  punteadas();
+
+}
