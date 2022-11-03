@@ -1,0 +1,13 @@
+# musical
+    public abstract class Instrumentos {
+        int numInstumentos;
+        String nombre;
+
+        //metodos
+        public abstract void Guitarra();
+
+        public abstract void Saxofon();
+
+        public abstract void Piano();
+    }
+
