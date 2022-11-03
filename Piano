@@ -1,0 +1,18 @@
+# musical
+
+public class Piano implements Teclado {
+    public Piano() {
+    }
+
+    @Override
+    public void notas() {
+        System.out.println("Piano, Notas que producen musica muy fina");
+
+    }
+
+    @Override
+    public void teclas() {
+        System.out.println("Piano, Teclas que producen musica no muy fina");
+
+    }
+}
