@@ -1,0 +1,6 @@
+# musical
+public interface Viento{
+    public void notas();
+    public void botones();
+
+}
